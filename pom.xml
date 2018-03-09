@@ -42,6 +42,14 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <resources>
+          <resource>
+            <directory>src/main/java/hello/</directory>
+            <includes>
+              <include>phrases.txt</include>
+            </includes>
+          </resource>
+        </resources>
     </build>
 
     <repositories>
